@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.alert {
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.alert-success {
+  background: #28a745;
+  color: white;
+}
+
+.alert-danger {
+  background: darkred;
+  color: white;
+}
+
+.container {
+  width: 70vw;
+  margin: 1rem auto;
+}
+
+header {
+  text-align: center;
+  line-height: 5rem;
+  background: #594236;
+  color: white;
+}
+
+#form-section {
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 1rem;
+  background: #fae3c6;
+}
+
+#todo-form input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem;
+  border: 0;
+}
+
+#todo-form input[type="submit"] {
+  background: #87a0b2;
+  margin: 2rem 0;
+  color: white;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+th {
+  line-height: 3rem;
+  border-top: 1px solid lightgray;
+  text-align: left;
+}
+
+table tr:nth-child(odd) td {
+  background: #fae3c6;
+}
+
+table input[type="checkbox"] {
+  margin-left: 1rem;
+}
+
+table a {
+  text-decoration: none;
+  color: darkred;
+}

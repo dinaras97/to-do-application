@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Application</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>To-Do List</h2>
+        </header>
+        <section id="form-section">
+            <form id="todo-form">
+                Description: <input type="text" id="todo-description" maxlength="160" autofocus required>
+                Deadline: <input type="datetime-local" id="todo-deadline">
+                <input type="submit" value="Add">
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Description</th>
+                        <th>Time left</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="todo-list"></tbody>
+            </table>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
